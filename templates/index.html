@@ -1,8 +1,31 @@
 <!DOCTYPE html>
-<html>
-<head><title>Mini Library</title></head>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mini Library App</title>
+    <link rel="stylesheet" href="/static/style.css">
+</head>
 <body>
-    <h1>Mini Library App - Web UI</h1>
-    <p>Under construction...</p>
+    <div class="container">
+        <h1>Mini Library App</h1>
+
+        <div class="add-form">
+            <h2>Add New Book</h2>
+            <input type="text" id="title" placeholder="Book Title" required>
+            <input type="text" id="author" placeholder="Author" required>
+            <input type="text" id="year" placeholder="Publication Year" required>
+            <button onclick="addBook()">Add Book</button>
+        </div>
+
+        <div class="search">
+            <input type="text" id="searchInput" placeholder="Search by title..." onkeyup="searchBooks()">
+        </div>
+
+        <h2>Book List</h2>
+        <div id="booksList"></div>
+    </div>
+
+    <script src="/static/script.js"></script>
 </body>
 </html>
