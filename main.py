@@ -46,8 +46,30 @@ def list_books(books):
     for b in books:
         print(f"{b['id']}: {b['title']} - {b['author']} ({b['year']})")
 
-# Test update
-if __name__ == "__main__":
+def search_books(books):
+    query = input("Search by title: ").lower()
+    results = [b for b in books if query in b["title"].lower()]
+    if results:
+        for b in results:
+            print(f"{b['id']}: {b['title']} - {b['author']} ({b['year']})")
+    else:
+        print("No books found.")
+
+def main():
     books = load_books()
-    print("\n--- List ---")
-    list_books(books)
+    while True:
+        print("\n=== Mini Library App ===")
+        print("1. Add book")
+        print("2. Delete book")
+        print("3. Search")
+        print("4. List all")
+        print("5. Exit")
+        choice = input("Choose: ")
+        if choice == "1": add_book(books)
+        elif choice == "2": delete_book(books)
+        elif choice == "3": search_books(books)
+        elif choice == "4": list_books(books)
+        elif choice == "5": break
+
+if __name__ == "__main__":
+    main()
