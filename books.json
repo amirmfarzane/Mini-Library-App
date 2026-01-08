@@ -1,1 +1,38 @@
-[]
+[
+    {
+        "id": 1,
+        "title": "The Little Prince",
+        "author": "Antoine de Saint-Exupéry",
+        "year": "1943"
+    },
+    {
+        "id": 2,
+        "title": "Python for Everybody",
+        "author": "Charles Severance",
+        "year": "2016"
+    },
+    {
+        "id": 3,
+        "title": "The Greatest Short Stories of Anton Chekhov",
+        "author": "Anton Chekhov",
+        "year": "2020"
+    },
+    {
+        "id": 4,
+        "title": "The Call of the Wild",
+        "author": "Jack London",
+        "year": "1903"
+    },
+    {
+        "id": 5,
+        "title": "White Fang",
+        "author": "Jack London",
+        "year": "1906"
+    },
+    {
+        "id": 6,
+        "title": "Iran",
+        "author": "Amir",
+        "year": "2025"
+    }
+]
