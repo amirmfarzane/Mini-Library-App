@@ -41,6 +41,7 @@ python app.py
 
 ## ساختار پروژه 📁
 
+<pre>
 mini-library-app/
 ├── books.json              📄 ذخیره دائمی کتاب‌ها (شامل ۵ کتاب نمونه انگلیسی)
 ├── main.py                 🐍 برنامه اصلی کنسولی
@@ -53,17 +54,19 @@ mini-library-app/
 └── static/
     ├── style.css           🎨 استایل بروز و ریسپانسیو
     └── script.js           ⚙️ جاوااسکریپت برای جستجوی زنده و عملیات پویا
+</pre>
+جاوااسکریپت برای جستجوی زنده و عملیات پویا
 
 ## داده‌های نمونه 📖
 
 فایل books.json شامل ۵ کتاب کلاسیک انگلیسی است تا بتوانید بلافاصله تمام قابلیت‌ها را تست کنید:
-
+<pre>
 The Little Prince – Antoine de Saint-Exupéry (1943)
 Python for Everybody – Charles Severance (2016)
 The Greatest Short Stories of Anton Chekhov – Anton Chekhov (2020)
 The Call of the Wild – Jack London (1903)
 White Fang – Jack London (1906)
-
+</pre>
 ## رابط کاربری وب (UI) 🎨
 
 این بخش به‌طور کامل و مطابق با شرایط امتیازی پیاده‌سازی شده است:
@@ -71,12 +74,6 @@ White Fang – Jack London (1906)
 وجود کامل در Repository
 تمام فایل‌های UI در پوشه‌های templates/ و static/ موجود است
 اجرای UI در README به صورت گام‌به‌گام توضیح داده شده
-
-مستندسازی کامل
-روش ساخت: HTML + CSS + JavaScript خالص
-پیش‌نیازها و نحوه اجرا توضیح داده شده
-ارتباط کامل با قابلیت‌های اصلی (استفاده مشترک از books.json)
-ساختار فایل‌ها و بخش‌های مختلف UI توضیح داده شده
 
 
 رابط کاربری شامل:
@@ -104,5 +101,5 @@ White Fang – Jack London (1906)
 
 ۴. حذف کتاب
 
-![alt text](images/image-6.png)
 ![alt text](images/image-7.png)
+![alt text](images/image-6.png)
